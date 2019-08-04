@@ -8,7 +8,7 @@ int main(){
 			tong = tong + i;
 		}
 	}
-	if(tong == n){
+	if(tong ==2*n){
 		printf("%d la so hoan hao",n);
 	}else{
 		printf("%d khong phai la so hoan hao",n);
