@@ -6,8 +6,10 @@ int main(){
 	int dem_so_uoc=0;
 	for(int i=1;i<=n;++i){
 		if(n%i==0){
+			dem_so_uoc++;
 		}
-		dem_so_uoc++;
+		
+//		d9em_so_uoc++;
 	}
 	if(dem_so_uoc==2){
 		printf("%d la so nguyen to",n);

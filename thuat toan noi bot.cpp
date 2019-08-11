@@ -20,8 +20,8 @@
 #include<stdio.h>
 int main(){
 	int arr[10]={1,23,5,3,77,45,23,43,12,23};
-	for(int i = 0 ; i < 9 ; ++i){
-		for(int j = 9 ; j>i ; --j){
+	for(int i = 0 ; i < 10-1 ; ++i){
+		for(int j = 10-1 ; j>i ; --j){
 			if(arr[j]<arr[j-1]){
 				int temp = arr[j];
 				arr[j] = arr[j-1];

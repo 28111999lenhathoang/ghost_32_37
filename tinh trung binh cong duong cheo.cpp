@@ -14,15 +14,22 @@ int main(){
 		}
 	}
 	int tong = 0;
-	for(int i = 0 ; i < m ; ++i){
+//	for(int i = 0 ; i < m ; ++i){
+//		for(int j = 0 ; j < n ; ++j){
+//			if(i==j){
+//			tong += arr[i][j];
+//			tb_cong = (double)tong/4;
+//		}
+//	}
+//	}
+	for(int i = n-1; i > 0 ; --i){
 		for(int j = 0 ; j < n ; ++j){
-			if(i==j){
 			tong += arr[i][j];
 			tb_cong = (double)tong/4;
-			}
 		}
 	}
-	printf("trung binh cong duong cheo : %lf\n",tb_cong);		
+	
+	printf("trung binh cong duong cheo : %0.3lf\n",tb_cong);		
 	printf("tong  : %d\n",tong);		
 	return 0;	
 }
