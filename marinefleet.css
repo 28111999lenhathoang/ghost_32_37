@@ -1,0 +1,349 @@
+*{
+    margin-left: 0;
+    margin-right: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+}
+.top-bar{
+    background-color: #1a1f2b;
+}
+.top-bar ul{
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.top-bar ul li{
+    display: inline;
+    font-weight: inherit;
+}
+.top-bar i, .top-bar span{
+    margin-right: 5px;
+}
+.top-bar a{
+    color: #FFFFFF;
+    font-size: 12px;
+}
+.top-bar .top-bar-left, .top-bar .top-bar-right{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 1;
+}
+.top-bar-right{
+    text-align: right;
+}
+header{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    z-index: 1000;
+}
+header .logo{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+header .logo img{
+    width: 72px;
+}
+header .logo-text span{
+    font-size: 28px;
+    color: #4E5C72;
+    /*color: #FFFFFF;*/
+}
+header .logo-text{
+    padding-left: 0;
+    padding-top: 10px;
+    text-align: center;
+}
+header .logo-image{
+    float: left;
+    padding-right: 15px;
+}
+header .logo-text{
+    float: left;
+    padding-top: 20px;
+}
+header .navigation{
+    padding-top: 30px;
+    text-align: center;
+}
+header .navigation ul li{
+    display: inline;
+    padding: 0 10px;
+    text-transform: uppercase;
+}
+header .navigation a{
+    color: #1a1f2b;
+    font-size: 18px;
+    /*color: #FFFFFF;*/
+}
+.banner .carousel-inner{
+    max-height: 700px;
+}
+.banner .carousel-inner img{
+}
+section .tag-banner{
+    border: solid 1px #E8E8E8;
+    text-align: center;
+    height: 200px;
+    margin-bottom: 25px;
+    background:url(http://themes.quitenicestuff2.com/yachtcharterwp/wp-content/uploads/2016/10/image18.jpg) top center;
+}
+section .prod-intro .left-side .item{
+    padding: 5px;
+}
+.prod-intro .left-side .tags-item{
+    position: absolute;
+    top: 6px;
+    right: 5px;
+    z-index: 1000;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.prod-intro .filter{
+}
+.prod-intro .item-content{
+    border: solid 1px #E8E8E8;
+}
+.prod-intro .item-thumbnail img{
+    width: 100%;
+}
+.prod-intro .item-info{
+    padding: 25px;
+    text-align: center;
+}
+.prod-intro .item-info h2{
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+.prod-intro .item-info button{
+    margin-top: 10px;
+}
+section .prod-intro .right-side h3{
+    margin: 5px 0 10px 0;
+    border-bottom: solid 1px #4E5C72;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.right-side-menu{
+    text-transform: uppercase;
+    padding-left: 15px;
+    font-weight: bold;
+    line-height: 2;
+    margin-bottom: 25px;
+}
+.right-side-menu a{
+    color: #1a1f2b;
+}
+.right-side-submenu{
+    padding-left: 15px;
+    text-transform: none;
+}
+.right-side-submenu a{
+    color: #4E5C72;
+}
+.label{
+    border: solid 1px #E8E8E8;
+    margin-top: 5px;
+    background-color: #E8E8E8;
+}
+.tags {
+    margin-bottom: 25px;
+}
+.tags a{
+    color: #1a1f2b;
+    font-size: 12px;
+    line-height: 2.5;
+}
+.tags a:hover{
+    color: #1a1f2b;
+}
+.recent-posts{
+}
+.recent-posts .recent-post-item{
+    border: solid 1px #E8E8E8;
+    padding: 0 15px 5px 15px;
+    margin-bottom: 15px;
+}
+.recent-posts .item-time{
+    border-bottom: solid 1px #4E5C72;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.recent-posts .item-time span{
+    font-size: 10px;
+    color: #4E5C72;
+}
+.recent-posts .item-title{
+    font-weight: bold;
+    color: #1471B4;
+    line-height: 1.5;
+}
+.recent-posts .item-title a:hover{
+    text-decoration: none;
+}
+.recent-posts .item-title{
+    margin-bottom: 5px;
+}
+.recent-posts .item-category span{
+    font-size: 12px;
+    border-top: solid 1px #E8E8E8;
+    padding-top: 5px;
+}
+.recent-posts .item-category a{
+    color: #1471B4;
+    font-size: 12px;
+}
+footer{
+    background-color: #333333;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 15px;
+}
+footer a{
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+footer a:hover{
+    color: #FFFFFF;
+}
+footer ul{
+    margin-bottom: 25px;
+}
+footer ul li{
+    list-style: none;
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 2;
+}
+/*vanh them css đoạn này ae sờ cai nhé*/
+
+.form-sub form {
+    float: left;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #1a1f2b;
+    border-radius: 6px;
+}
+.form-sub form h1 {
+    color: #FFFFFF;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.form-sub form input {
+    float: left;
+    width: 100%;
+    height: 27px;
+    border-radius: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #1a1f2b;
+    margin-bottom: 10px;
+}
+.form-sub button {
+    float: left;
+    width: 100%;
+    background-color: #85a5cc;
+    line-height: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.title-block5 {
+    width: 106px;
+    height: 2px;
+    margin: 0 0 25px 0;
+    background-color: #84bae9;
+}
+.title-block3 {
+    width: 80px;
+    height: 2px;
+    margin: 15px auto;
+    background-color: #84bae9;
+    text-align: center;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+.video-wrapper .video-play i {
+    color: #fff;
+    width: 70px;
+    height: 57px;
+    padding: 23px 0 0 10px;
+    font-size: 38px;
+    text-align: center;
+    border: #fff 3px solid;
+    z-index: 999;
+}
+.khung1{
+    width: 570px;
+    height: 450px;
+    padding: 0px 15px;
+    margin-top: 20px;
+}
+.khung2{
+    width: 540px;
+    height: 460px;
+    color: #424242;
+    font: 16px "Source Code Pro",sans-serif;
+}
+.khung6{
+    width: 270px;
+    height:230px;
+}
+.khung7{
+    width: 250px;
+    height: 210px;
+    float: left;
+}
+.khung7 img{
+    width: 250px;
+    height: 210px;
+}
+.container {
+    width: 1160px;
+}
+.subscription-form {
+    width: 80%;
+    padding: 45px 5px;
+    color: #fff;
+}
+.subscription-form-title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    display: inline-block;
+    font-weight: 300;
+    color:#333
+}
+.form-inline .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+.subscription-form .form-control {
+    width: 250px;
+    margin-right: 5px;
+    color: #171717;
+}
+.subscription-form .btn {
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #007199;
+    border: 0;
+}
+
+video {
+    display: inline-block;
+    vertical-align: baseline;
+    width: 230%;
+}
+.video{
+    margin: auto;
+}
+
+
